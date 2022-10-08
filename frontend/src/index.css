@@ -1,7 +1,7 @@
 body {
-  background: #000428; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #004e92, #000428);
-  background: linear-gradient(to right, #004e92, #000428);
+  background: #000428;
+  background: -webkit-linear-gradient(to right, #00925a, #001928);
+  background: linear-gradient(to right, #009249, #032800);
   margin: 0;
   padding: 0;
   font-family: "Raleway";

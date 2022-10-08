@@ -16,9 +16,7 @@ en sus versiones estables:
 En el caso de querer utilizar otro framework es posible, pero debe consultarse con
 anterioridad.
 
-Los datos mostrados deben ser persistidos en una base de datos relacional. El esquema de
-datos puede armarse según se considere apropiado en base a los requerimientos del
-negocio. La API deberá exponer URLS que devuelvan datos en JSON.
+Los datos mostrados deben ser persistidos en una base de datos relacional. El esquema de datos puede armarse según se considere apropiado en base a los requerimientos del negocio. La API deberá exponer URLS que devuelvan datos en JSON.
 Estos datos en JSON deberán ser consumidos por un cliente, a través de peticiones AJAX.
 El cliente puede ser armado con React.js.
 El trabajo realizado se subirá a un repositorio.
@@ -26,9 +24,7 @@ El trabajo realizado se subirá a un repositorio.
 # Secciones
 
 ## Home
-La pantalla de inicio deberá mostrar el balance actual, es decir, el resultante de los
-ingresos y egresos de dinero cargados, y un listado de los últimos 10 registrados.
-ABM de operaciones (ingresos y egresos)
+La pantalla de inicio deberá mostrar el balance actual, es decir, el resultante de los ingresos y egresos de dinero cargados, y un listado de los últimos 10 registrados. ABM de operaciones (ingresos y egresos)
 
 La aplicación deberá contener:
 ● Formulario de registro de operación. El mismo deberá contener:
@@ -47,16 +43,11 @@ De forma adicional, puede
 
 ## Autenticación de usuarios
 
-Agregar un formulario de registro y login para permitir identificar al usuario que utiliza la
-aplicación, y vincular las operaciones registradas al usuario autenticado en el sistema,
-tanto para el listado y creación de nuevos registros. Los datos indispensables para permitir
-el ingreso deben ser un email y contraseña, pudiendo agregar los que se deseen.
+Agregar un formulario de registro y login para permitir identificar al usuario que utiliza la aplicación, y vincular las operaciones registradas al usuario autenticado en el sistema, tanto para el listado y creación de nuevos registros. Los datos indispensables para permitir el ingreso deben ser un email y contraseña, pudiendo agregar los que se deseen.
 
 ## Categorías de operaciones
 
-Agregar la funcionalidad de categorizar las operaciones registradas en el gestor, como por
-ejemplo, una categoría “comida” para categorizar egresos. Adicionalmente, agregar la
-posibilidad de listar operaciones por categoría.
+Agregar la funcionalidad de categorizar las operaciones registradas en el gestor, como por ejemplo, una categoría “comida” para categorizar egresos. Adicionalmente, agregar la posibilidad de listar operaciones por categoría.
 
 ## Criterios a Evaluar
 ● El diseño debe ser responsive, pudiendo utilizarse CSS puro o algún framework
