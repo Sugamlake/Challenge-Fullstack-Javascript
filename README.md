@@ -52,7 +52,9 @@ Agregar la funcionalidad de categorizar las operaciones registradas en el gestor
 ## Criterios a Evaluar
 ● El diseño debe ser responsive, pudiendo utilizarse CSS puro o algún framework
 de Frontend
+<br>
 ● Código limpio, buenas prácticas de programación, en idioma inglés
+<br>
 ● Correcto diseño de la base de datos
 ● Buenas prácticas de GIT: Commits declarativos y atomizados
 ● Buenas prácticas para el nombre de rutas
