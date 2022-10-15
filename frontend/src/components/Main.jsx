@@ -2,13 +2,13 @@ import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import ShowBalance from "./ShowBalance";
 
-import './Main.css';
+import "./Main.css";
 
 const Main = ({ movements }) => {
   return (
     <Fragment>
       <div className="main">
-        <h1>Weekly Budget Administrator</h1>
+        <h1>Budget Administrator</h1>
         <div className="container">
           <Link to={"/new"} className="button button-primary add-movement">
             Add Movement

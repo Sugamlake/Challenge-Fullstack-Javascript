@@ -1,25 +1,39 @@
 .navBar {
-  background: #000428; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #004e92, #000428);
-  background: linear-gradient(to right, #004e92, #000428);
+  background: rgb(79, 77, 77); /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #004e92, #000428);
+  background: linear-gradient(to right, #004e92, #000428); */
 }
 
 /*Floats each item to the left with padding of 14 & 16 px.
     Removes the underline with text decoration = none.*/
-.navBar a {
+.navBar a,
+.username {
   float: left;
-  color: grey;
-  padding: 14px 16px;
+  color: grey; /*color que aparece en la letra*/
+  padding: 10px 16px;
   text-decoration: none;
   font-size: 17px;
   font-family: Tahoma;
 }
 
 /*Background color change during hover state*/
-.navBar a:hover {
+.navBar a:hover,
+p:hover {
+  /*color que aparece en la letra al pasar el mouse*/
   background-color: white;
   color: #009cde;
 }
+
+/* .username {
+  float: right;
+  color: grey; 
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Tahoma;
+  margin: 0;
+  display: inline;
+} */
 
 /*Hides the menu Icon which will show when the nav needs to be responsive*/
 .navBar .icon {

@@ -7,7 +7,12 @@ import {
   editMovement,
   deleteMovement,
 } from "../controllers/MovementsController.js";
-import {saveUsers, getUsers} from "../controllers/UsersController.js";
+import {
+  saveUsers,
+  getUsers,
+  login,
+  logout,
+} from "../controllers/UsersController.js";
 
 router.get("/", (req, res) => {
   res.send("Budget");
@@ -33,5 +38,11 @@ router.post("/users", saveUsers);
 
 // Get users from DB
 router.get("/users", getUsers);
+
+// Login user
+router.post("/login", login);
+
+// Logout user
+router.get("/logout", logout);
 
 export default router;
