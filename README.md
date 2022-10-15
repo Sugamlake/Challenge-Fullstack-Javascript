@@ -9,12 +9,12 @@ operaciones registradas.
 ## Requerimientos Técnicos
 Deberás desarrollar una API en Node.js junto a cualquiera de los siguientes frameworks,
 en sus versiones estables:
+<br>
 ● Express
+<br>
 ● Adonis
+<br>
 ● Koa
-
-En el caso de querer utilizar otro framework es posible, pero debe consultarse con
-anterioridad.
 
 Los datos mostrados deben ser persistidos en una base de datos relacional. El esquema de datos puede armarse según se considere apropiado en base a los requerimientos del negocio. La API deberá exponer URLS que devuelvan datos en JSON.
 Estos datos en JSON deberán ser consumidos por un cliente, a través de peticiones AJAX.
@@ -27,12 +27,19 @@ El trabajo realizado se subirá a un repositorio.
 La pantalla de inicio deberá mostrar el balance actual, es decir, el resultante de los ingresos y egresos de dinero cargados, y un listado de los últimos 10 registrados. ABM de operaciones (ingresos y egresos)
 
 La aplicación deberá contener:
+<br>
 ● Formulario de registro de operación. El mismo deberá contener:
+<br>
 ○ Concepto
+<br>
 ○ Monto
+<br>
 ○ Fecha
+<br>
 ○ Tipo (ingreso o egreso)
+<br>
 ● Listado de operaciones registradas según su tipo (ingreso o egreso).
+<br>
 ● Desde el listado, se debe poder modificar o eliminar una operación registrada
 previamente. No debe ser posible modificar el tipo de operación (ingreso o
 egreso) una vez creada.
@@ -56,5 +63,7 @@ de Frontend
 ● Código limpio, buenas prácticas de programación, en idioma inglés
 <br>
 ● Correcto diseño de la base de datos
+<br>
 ● Buenas prácticas de GIT: Commits declarativos y atomizados
+<br>
 ● Buenas prácticas para el nombre de rutas
