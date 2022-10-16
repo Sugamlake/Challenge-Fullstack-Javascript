@@ -1,5 +1,7 @@
 # CHALLENGE FULL STACK -JavaScript 🚀 by SUGAM
 
+![Captura de Pantalla 2022-10-15 a la(s) 17 15 58](https://user-images.githubusercontent.com/93014692/196012901-428eee88-0022-43b7-9498-1c9457ec1228.png)
+
 ## Objetivo
 
 Desarrollar una aplicación para administración de presupuesto personal. La misma debe
